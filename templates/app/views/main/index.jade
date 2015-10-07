@@ -1,0 +1,13 @@
+head
+	link(rel="stylesheet",type="text/css",href="styles/main.css")
+	script(src="scripts/jquery.js")
+	script(src="scripts/main.js")
+body
+	h1 Welcome, here is a list of users
+	for u in users
+		.user
+			.name #{u.username}
+			- var userBD = CT_StringToDate(u.birthday)
+			.birthdate Birthdate whole #{userBD}
+			.birthdate Bitrhdate parsed #{CT_DateFormat(userBD.getTime()/1000,'dd / mm, yyyy')}
+		br

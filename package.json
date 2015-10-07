@@ -1,0 +1,17 @@
+{
+  "name": "chaiteabrewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chaitea-brewer",
+  "bin": {
+    "chaitea-brewer": "./chaitea-brewer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "commander": "^2.8.1",
+    "consolecolors": "^0.33.2-b",
+    "mkdirp": "^0.5.1"
+  }
+}
