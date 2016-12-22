@@ -78,11 +78,11 @@ toDeploy = [
 	}
 	{
 		path : '/app/views/main/'
-		file : 'index.jade'
+		file : 'index.pug'
 	}
 	{
 		path : '/app/views/'
-		file : '404.jade'
+		file : '404.pug'
 	}
 	{
 		path : '/'
