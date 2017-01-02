@@ -10,6 +10,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-  	"chaitea-framework" : "2.0.0"
+  	"chaitea-framework" : "2.0.1"
   }
 }
